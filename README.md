@@ -1,5 +1,7 @@
 # Chest CT — ZIP → LungMask → Pathology Excel
 
+## Прошу предварительно разместить в папке /data предоставленные zip архивы: pneumotorax_anon.zip,  pneumonia_anon.zip, norma_anon.zip
+
 ## Что делает
 Берёт ZIP с DICOM-исследованием грудной клетки, распаковывает, конвертирует срезы в PNG,  
 применяет **OGK (lungmask + морфология) фильтр лёгких** и классифицирует «патология / нет».  
