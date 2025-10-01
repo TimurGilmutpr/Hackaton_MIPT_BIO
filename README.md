@@ -1,5 +1,11 @@
 # Chest CT — ZIP → LungMask → Pathology Excel
 
+## Авторы
+tg:
+@Son_of_King_Arthur 
+@olgreda 
+@irinaromanova00 
+
 ## Прошу предварительно разместить в папке /data предоставленные zip архивы: pneumotorax_anon.zip,  pneumonia_anon.zip, norma_anon.zip
 
 ## Что делает
@@ -17,7 +23,8 @@
 - **making_data.ipynb** — подготовка данных.  
 - **learning.ipynb** — обучение моделей.  
 - **filtering_lung.ipynb** — эксперименты с фильтрацией лёгких.  
-- **models/*.pth, label_encoder.pkl** — веса модели и кодировщик классов.  
+- **models/*.pth, label_encoder.pkl** — веса модели и кодировщик классов.
+- - **data/*.pth, *.zip ** — архивы с DICOM изображениями  
 
 ---
 
