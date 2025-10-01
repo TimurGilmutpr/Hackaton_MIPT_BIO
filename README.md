@@ -36,6 +36,13 @@ tg:
 ```bash
 pip install torch torchvision pandas numpy pillow pydicom scikit-learn matplotlib
 pip install opencv-python scikit-image scipy tqdm lungmask SimpleITK openpyxl
+
+
+## ИЛИ МОЖНО УСТАНОВИТь ТАК:
+(base) wsl@DESKTOP-A76EJFP:~/clear_hackton$ python --version
+Python 3.13.5
+(base) wsl@DESKTOP-A76EJFP:~/clear_hackton$ pip install -r requirements.txt
+
 ```
 
 ---
