@@ -49,6 +49,8 @@ Python 3.13.5
 
 ## Запуск (CLI)
 
+С фильрация облсти с органами грудной клетки (ОГК)
+
 ```bash
 python pipeline_infer_only_with_lung_mask.py \
     --data_dir ./data \
