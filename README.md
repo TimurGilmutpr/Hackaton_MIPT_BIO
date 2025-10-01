@@ -104,8 +104,8 @@ project/
 │    ├─ best_model.pth
 │    └─ label_encoder.pkl
 ├─ data/
-│    ├─ study1.zip
-│    ├─ study2.zip
-│    └─ ...
+│    ├─ pneumotorax_anon.zip
+│    ├─ pneumonia_anon.zip
+│    └─norma_anon.zip
 └─ results.xlsx
 ```
