@@ -115,6 +115,6 @@ project/
 ├─ data/
 │    ├─ pneumotorax_anon.zip
 │    ├─ pneumonia_anon.zip
-│    └─norma_anon.zip
+│    └─ norma_anon.zip
 └─ results.xlsx
 ```
