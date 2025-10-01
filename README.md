@@ -28,7 +28,7 @@ tg:
 - **learning.ipynb** — обучение моделей.  
 - **filtering_lung.ipynb** — эксперименты с фильтрацией лёгких.  
 - **models/*.pth, label_encoder.pkl** — веса модели и кодировщик классов.
-- - **data/*.pth, *.zip ** — архивы с DICOM изображениями  
+- **data/*, *.zip ** — архивы с DICOM изображениями  
 
 ---
 
