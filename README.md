@@ -3,8 +3,11 @@
 ## Авторы
 tg:
 @Son_of_King_Arthur 
+
 @olgreda 
+
 @irinaromanova00 
+
 
 ## Прошу предварительно разместить в папке /data предоставленные zip архивы: pneumotorax_anon.zip,  pneumonia_anon.zip, norma_anon.zip
 
