@@ -1,5 +1,17 @@
 # Chest CT — ZIP → LungMask → Pathology Excel
 
+## Авторы
+tg:
+
+@Son_of_King_Arthur 
+
+@olgreda 
+
+@irinaromanova00 
+
+
+## Прошу предварительно разместить в папке /data предоставленные zip архивы: pneumotorax_anon.zip,  pneumonia_anon.zip, norma_anon.zip
+
 ## Что делает
 Берёт ZIP с DICOM-исследованием грудной клетки, распаковывает, конвертирует срезы в PNG,  
 применяет **OGK (lungmask + морфология) фильтр лёгких** и классифицирует «патология / нет».  
@@ -15,7 +27,8 @@
 - **making_data.ipynb** — подготовка данных.  
 - **learning.ipynb** — обучение моделей.  
 - **filtering_lung.ipynb** — эксперименты с фильтрацией лёгких.  
-- **models/*.pth, label_encoder.pkl** — веса модели и кодировщик классов.  
+- **models/*.pth, label_encoder.pkl** — веса модели и кодировщик классов.
+- **data/*, *.zip ** — архивы с DICOM изображениями  
 
 ---
 
@@ -23,11 +36,20 @@
 ```bash
 pip install torch torchvision pandas numpy pillow pydicom scikit-learn matplotlib
 pip install opencv-python scikit-image scipy tqdm lungmask SimpleITK openpyxl
+
+
+## ИЛИ МОЖНО УСТАНОВИТь ТАК:
+(base) wsl@DESKTOP-A76EJFP:~/clear_hackton$ python --version
+Python 3.13.5
+(base) wsl@DESKTOP-A76EJFP:~/clear_hackton$ pip install -r requirements.txt
+
 ```
 
 ---
 
 ## Запуск (CLI)
+
+С фильтрацией области органов грудной клетки (ОГК)
 
 ```bash
 python pipeline_infer_only_with_lung_mask.py \
@@ -91,8 +113,8 @@ project/
 │    ├─ best_model.pth
 │    └─ label_encoder.pkl
 ├─ data/
-│    ├─ study1.zip
-│    ├─ study2.zip
-│    └─ ...
+│    ├─ pneumotorax_anon.zip
+│    ├─ pneumonia_anon.zip
+│    └─ norma_anon.zip
 └─ results.xlsx
 ```
